@@ -110,13 +110,27 @@ Cada estado possui identificação visual própria.
 
 ## Requisitos opcionais
 
-### 1. Busca textual
+### 1. Filtro funcional por status
 
-Foi implementada busca textual nas ordens de serviço, permitindo pesquisar por código da ordem, descrição, equipamento e técnico.
+Foi implementado um filtro funcional por status das ordens de serviço, permitindo visualizar ordens abertas, em andamento, planejadas, vencidas ou concluídas.
 
-### 2. Filtros
+### 2. Filtro funcional por prioridade
 
-Foram implementados filtros por status e prioridade para facilitar a localização e o acompanhamento das ordens de serviço.
+Foi implementado um filtro funcional por prioridade, permitindo consultar ordens de baixa, média, alta ou urgente prioridade.
+
+### Recurso adicional
+
+Além dos dois requisitos opcionais escolhidos, também foi implementado um botão para limpar a busca e os filtros aplicados.
+
+## Inovação do aluno
+
+### Risco operacional
+
+Foi criada uma área de risco operacional que identifica automaticamente equipamentos de alta criticidade que não estão operando.
+
+Essa melhoria resolve o problema de identificar rapidamente máquinas de maior importância que estão paradas, em manutenção ou em situação de atenção.
+
+Para a equipe de manutenção, o recurso facilita a priorização do acompanhamento desses equipamentos e ajuda a identificar situações que podem representar maior impacto para a operação industrial.
 
 ## Componentização
 
